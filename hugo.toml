@@ -1,0 +1,30 @@
+languageCode = "ru-ru"
+defaultContentLanguage = "ru"
+enableRobotsTXT = true
+enableEmoji = true
+
+theme = "almeida-cv"
+disableKinds = ["page", "section", "taxonomy", "term", "RSS", "sitemap"]
+
+baseURL = "https://aapanchenko.github.io/"
+title = "Инженер CV"
+# googleAnalytics = ""
+
+[params]
+enableMetaTags = true
+colorLight = "#f8fafc"
+colorDark = "#111827"
+colorPageBackground = "#e3eaf2"
+colorPrimary = "#4f6f93"
+colorSecondary = "#5a6d84"
+colorIconPrimary = "#fff"
+colorIconBackground = "#4f6f93"
+colorRightColumnBackground = "#eff3f8"
+colorRightColumnHeadingText = "#111827"
+colorRightColumnBodyText = "#364a61"
+colorRightColumnIconPrimary = "#fff"
+colorRightColumnIconBackground = "#4f6f93"
+pages = 1
+# Set this param to "true" to swap the bar positions.
+swapColumns = false
+footerNote = "Инженер"

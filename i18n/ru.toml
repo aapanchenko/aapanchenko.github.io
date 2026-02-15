@@ -1,0 +1,23 @@
+[profile]
+other = "О себе"
+
+[experience]
+other = "Опыт работы"
+
+[education]
+other = "Образование"
+
+[references]
+other = "Рекомендации"
+
+[skills]
+other = "Навыки"
+
+[languages]
+other = "Языки"
+
+[diplomas]
+other = "Дипломы"
+
+[interests]
+other = "Интересы"

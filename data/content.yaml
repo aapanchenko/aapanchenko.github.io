@@ -1,0 +1,96 @@
+BasicInfo:
+  FirstName: Александр
+  LastName: Панченко
+  Photo: img/avatar.png
+  Contacts:
+    - Icon: fab fa-telegram-plane
+      Info: <a class="contact__link" href="https://t.me/Woklex" target="_blank" rel="noopener noreferrer">@Woklex</a>
+    - Icon: fas fa-envelope
+      Info: <a class="contact__link" href="mailto:woklex@gmail.com">woklex@gmail.com</a>
+    - Icon: fas fa-phone
+      Info: +7 921 799-44-52
+    - Icon: fas fa-map-marker-alt
+      Info: Санкт-Петербург
+
+Profile: "Инженер с 10+ годами в IT. Создаю инструменты и сервисы, автоматизирую рутинные процессы и помогаю командам работать эффективнее."
+
+Experience:
+  - Employer: ЮМани
+    Place: Санкт-Петербург
+    Description: Сервис электронных платежей.
+    Positions:
+      - Title: Эксперт по исследованию производительности
+        Date: Ноябрь 2018 — н.в.
+        Details:
+          - Развиваю проверки производительности на тестовом стенде, релизы автоматически валидируются до выхода в продакшен.
+          - "Поддерживаю внутренний веб-интерфейс результатов. При отклонениях видно, где возникла деградация, и доступна история прогонов."
+          - Развиваю дашборды Grafana для анализа производительности и отслеживания динамики.
+          - "Автоматизирую полный цикл исследований производительности в продакшене: планирование запусков, выполнение сценариев и формирование отчетов."
+          - Участвовал во внедрении платформы оркестрации сервисов для ускорения разработки и запуска внутренних сервисов команды.
+        Badges: ['k6', 'Kubernetes', 'VictoriaMetrics', 'Python', 'Go', 'Grafana']
+  - Employer: Яндекс.Деньги
+    Place: Санкт-Петербург
+    Description: Платежный сервис Яндекса.
+    Positions:
+      - Title: Системный администратор Linux
+        Date: Август 2016 — Октябрь 2018
+        Details:
+          - "Участвовал в автоматизации релизного цикла в продакшене, автоматизированный деплой сократил время вывода изменений и количество инцидентов."
+          - Организовал резервное копирование критичных сервисов и регулярную проверку восстановления, снизив риск длительных простоев.
+          - "Поддерживал стабильность сервиса в режиме 24/7: диагностика инцидентов, быстрое восстановление и пост-анализ причин."
+        Badges: ['Linux', 'CI/CD', 'Backup and Recovery', 'Incident Management']
+  - Employer: Альянс Электро
+    Place: Хабаровск
+    Description: Сеть по продаже электрооборудования и комплектующих.
+    Positions:
+      - Title: Системный администратор Linux
+        Date: Февраль 2016 — Июль 2016
+        Details:
+          - "Поддерживал бесперебойную работу IT-инфраструктуры компании (головной офис и 5 магазинов)."
+          - Администрировал Linux-серверы, сеть и рабочие станции, оперативно устранял инциденты и минимизировал простои магазинов.
+        Badges: ['Linux', 'Networking', 'Workplace Support']
+
+Education:
+  - Course: Комплексная защита объектов информатизации
+    Place: НИУ ИТМО
+    Details: Высшее образование
+
+Skills:
+  - Family: Разработка
+    Items:
+      - Python
+      - Go
+      - TypeScript
+  - Family: Производительность
+    Items:
+      - k6
+      - JMeter
+      - Яндекс.Танк
+  - Family: Инфраструктура
+    Items:
+      - Linux
+      - Kubernetes
+      - Nomad
+      - Nginx
+      - Jenkins
+      - Ansible
+      - Vault
+  - Family: Мониторинг
+    Items:
+      - Zabbix
+      - VictoriaMetrics
+      - Grafana
+  - Family: Процессы
+    Items:
+      - Jira
+      - Confluence
+      - GitHub Flow
+  - Family: Базы данных
+    Items:
+      - PostgreSQL
+      - MongoDB
+      - Redis
+
+Languages: []
+Diplomas: []
+Interests: []
